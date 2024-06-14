@@ -1,0 +1,127 @@
+/* Code for resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles for HTML and body elements */
+  html, body {
+    height: 100%; /* Set height to 100% of viewport */
+    background-color: #000; /* Set background color to black */
+    font-family: Arial, sans-serif; /* Set font family to Arial */
+    color: #fff; /* Set text color to white */
+  }
+  
+  /* CSS Styles for wrapper element */
+  .wrapper {
+    display: flex; /* Set display to flexbox */
+    flex-direction: column; /* Set flex direction to column */
+    min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  }
+  
+  /* CSS Styles for container element */
+  .container {
+    flex: 1; /* Set flex-grow to 1 */
+  }
+  
+  /* CSS Styles for image container element */
+  .image-container {
+    display: flex; /* code to set display to flexbox */
+    justify-content: center; /* code to center content horizontally */
+    align-items: center; /* code to center content vertically */
+    margin-top: 20px; /* code to add margin top */
+  }
+  
+  /* CSS Styles for top navigation element */
+  .topnav {
+    display: flex; /* code to set display to flexbox */
+    justify-content: center; /* code to center content horizontally */
+    margin: 20px 0; /* code to add margin top and bottom */
+  }
+  
+  /* CSS Styles for navigation links */
+  .topnav nav a {
+    color: #e9e0e0; /* code to set text color */
+    text-decoration: none; /* code to remove underline */
+    padding: 14px 13px; /* code to add padding */
+    background-color: black; /* code to set background color */
+    font-size: 17px; /* code to set font size */
+    text-align: center; /* code to center text */
+    width: 200px; /* code to set width */
+  }
+  
+  /* CSS Styles for hover effect on navigation links */
+  .topnav nav a:hover {
+    background-color: white; /* CSS code to change background color on hover */
+    color: black; /* CSS code to change text color on hover */
+  }
+  
+  /* CSS Styles for GIF container element */
+  .gif-container {
+    display: flex; /* CSS code to set display to flexbox */
+    justify-content: center; /* CSS code to center content horizontally */
+    margin-bottom: 100px; /* CSS code to add margin bottom */
+  }
+  
+  /* CSS Styles for info section element */
+  .info-section {
+    background-color: #000; /* CSS code to set background color */
+    padding: 100px 20px; /* CSS code to add padding */
+    font-family: 'Perpetua', serif; /* CSS code to set font family */
+  }
+  
+  /* CSS Styles for info content element */
+  .info-content {
+    display: flex; /* CSS code to set display to flexbox */
+    align-items: center; /* CSS code to center content vertically */
+    justify-content: space-around; /* CSS code to distribute content evenly */
+    color: #000; /* CSS code to set text color */
+    background-color: #fff; /* CSS code to set background color */
+    padding: 20px; /* CSS code to add padding */
+  }
+  
+  /* CSS Styles for info image element */
+  .info-image {
+    width: 45%; /* CSS code to set width */
+    height: auto; /* CSS code to set height to auto */
+    margin-right: 20px; /* CSS code to add margin right */
+  }
+  
+  /* CSS Styles for info text element */
+  .info-text {
+    max-width: 45%; /* CSS code to set maximum width */
+  }
+  
+  /* CSS Styles for heading element inside info text */
+  .info-text h2 {
+    font-size: 36px; /* CSS code to set font size */
+    margin-bottom: 20px; /* CSS code to add margin bottom */
+  }
+  
+  /* CSS Styles for learn more button */
+  .learn-more {
+    display: inline-block; /* CSS code to set display to inline-block */
+    padding: 20px 13px; /* CSS code to add padding */
+    background-color: black; /* CSS code to set background color */
+    color: #e9e0e0; /* CSS code to set text color */
+    text-decoration: none; /* CSS code to remove underline */
+    font-size: 20px; /* CSS code to set font size */
+    width: 200px; /* CSS code to set width */
+    font-weight: bold; /* CSS code to set font weight to bold */
+  }
+  
+  /* CSS Styles for hover effect on learn more button */
+  .learn-more:hover {
+    background-color: white; /* CSS code to shange background color on hover */
+    color: black; /* CSS code to change text color on hover */
+  }
+  
+  /* CSS Styles for footer element */
+  .footer {
+    text-align: center; /* CSS code to center text */
+    padding: 20px 0; /* CSS code to add padding */
+    background-color: #000; /* CSS code to set background color */
+    color: #fff; /* CSS code to set text color */
+    margin-top: auto; /* CSS code to set margin top to auto */
+  }
