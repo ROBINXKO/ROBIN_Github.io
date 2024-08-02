@@ -6,9 +6,9 @@
 
 html, body {
     height: 100%;
-    background-color: #000;
+    background-color: #F8F8F8;
     font-family: Arial, sans-serif;
-    color: #fff;
+    color:#8B4513;
 }
 
 .topnav {
@@ -23,17 +23,18 @@ html, body {
 }
 
 .topnav nav a {
-    color: #e9e0e0;
+    color: #F8F8F8;
     text-decoration: none;
     padding: 14px 13px;
-    background-color: black;
+    background-color: #8B4513;
     font-size: 17px;
     text-align: center;
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .topnav nav a:hover {
-    background-color: white;
-    color: black;
+    background-color: #F8F8F8;
+    color: #8B4513;
 }
 
 .container {
@@ -43,20 +44,11 @@ html, body {
     align-items: center;
 }
 
-.logo {
+.brand {
     text-align: center;
     margin: 20px 0;
 }
 
-.gif-container {
-    width: 100%;
-    height: 100vh;
-    background-image: url('/images/ap.gif');  /* CSS code to set and link the background GIF of the container */
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .content {
     padding: 20px;
@@ -64,13 +56,13 @@ html, body {
 }
 
 .paragraph {
-    background-color: #f8f8f8;
+    background-color: #F8F8F8;
     padding: 20px 30px;
     font-family: 'Perpetua', serif;
-    color: #333;
+    color: #8B4513;
     line-height: 1.6;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px #8B4513;
     max-width: 800px;
     margin: 20px auto;
     text-align: left;
@@ -78,12 +70,4 @@ html, body {
 
 .paragraph p {
     margin-bottom: 20px;
-}
-
-.footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #000;
-    color: #fff;
-    font-size: 14px;
 }

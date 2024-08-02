@@ -3,95 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
+    background-color: #F8F8F8;
+    color: #8B4513;
     line-height: 1.6;
 }
-  
+
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-  
-.container {
-    flex: 1;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+
+.brand {
+    text-align: center;
+    margin: 20px 0;
 }
-  
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-  
+
 .topnav {
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
-  
+
 .topnav nav {
     display: flex;
     gap: 20px;
 }
-  
+
 .topnav nav a {
-    color: #e9e0e0;
+    color: #F8F8F8;
     text-decoration: none;
     padding: 14px 20px;
-    background-color: black;
+    background-color: #8B4513;
     font-size: 17px;
     text-align: center;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s; 
 }
-  
+
 .topnav nav a:hover {
-    background-color: white;
-    color: black;
+    background-color: #F8F8F8;
+    color: #8B4513;
 }
-  
+
 .contact-info {
     max-width: 800px;
-    margin-top: 40px;
+    margin: 40px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #F8F8F8;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px #8B4513;
 }
-  
+
 .contact-info h1 {
     font-family: 'Perpetua', serif;
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
 }
-  
+
 .contact-info h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-  
+
 .contact-info ul {
     list-style-type: none;
     padding: 0;
 }
-  
+
 .contact-info ul li {
     font-size: 18px;
     margin-bottom: 10px;
 }
-  
+
 .social-media {
     margin-top: 20px;
 }
-  
+
 .social-media ul {
     list-style-type: none;
     padding: 0;
@@ -99,40 +90,32 @@ body {
     justify-content: center;
     gap: 20px;
 }
-  
+
 .social-media ul li a {
-    color: #fff;
+    color: #8B4513;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 1px solid #8B4513;
     transition: background-color 0.3s, border-color 0.3s;
 }
-  
+
 .social-media ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: #fff;
+    background-color: #F8F8F8;
+    border-color: #F8F8F8;
 }
-  
+
 .contact-details {
     margin-top: 20px;
     text-align: center;
 }
-  
+
 .contact-details h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-  
+
 .contact-details p {
     font-size: 18px;
     margin-bottom: 10px;
-}
-  
-.footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #000;
-    color: #fff;
-    margin-top: auto;
 }

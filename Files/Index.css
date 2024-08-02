@@ -1,0 +1,124 @@
+/* Code for resetting default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Set height to 100% of viewport */
+  background-color: #F8F8F8;
+  font-family: Arial, sans-serif; /* Set font family to Arial */
+  color: #8B4513; /* Set text color to white */
+}
+
+/* Center the Brand Name */
+.brand {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* CSS code for wrapper element */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* CSS code for top navigation element */
+.topnav {
+  display: flex; 
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* CSS code for navigation links */
+.topnav nav a {
+  color: #F8F8F8;
+  text-decoration: none;
+  padding: 14px 13px;
+  background-color: #8B4513;
+  font-size: 17px;
+  text-align: center;
+  width: 200px; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+/* CSS code for hover effect on navigation links */
+.topnav nav a:hover {
+  background-color: #F8F8F8;
+  color: #8B4513;
+}
+
+/* CSS code for image container element */
+.Image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Image img {
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* CSS code for info section element */
+.info-section {
+  background-color: #F8F8F8;
+  padding: 100px 20px;
+  font-family: 'Perpetua', serif;
+  text-align: center;
+}
+
+/* CSS code for info content element */
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F8F8F8;
+  background-color: #8B4513;
+  padding: 20px;
+  flex-direction: column;
+}
+
+/* CSS code for info image element */
+.info-image {
+  width: 45%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* CSS code for info text element */
+.info-text {
+  max-width: 45%;
+  text-align: center;
+}
+
+/* CSS code for heading element inside info text */
+.info-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.info-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* CSS code for learn more button */
+.learn-more {
+  display: inline-block;
+  padding: 20px 13px;
+  background-color: #F8F8F8;
+  color: #8B4513;
+  text-decoration: none;
+  font-size: 20px;
+  width: 200px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* CSS code for hover effect on learn more button */
+.learn-more:hover {
+  background-color: #8B4513; /* code to change background color on hover */
+  color: #F8F8F8; /* code to change change text color on hover */
+}
